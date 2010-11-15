@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:	Parses almost all ISO8601 date and time formats
 License:	GPL
@@ -14,6 +14,7 @@ Source0:	%{upstream_name}-%{upstream_version}.tar.gz
 BuildRequires: perl(DateTime)
 BuildRequires: perl(DateTime::Format::Builder)
 BuildRequires: perl(Class::Factory::Util)
+Requires: perl(Class::Factory)
 BuildArch: noarch
 Buildroot: %{_tmppath}/%{name}-%{version}-%{release}
 
