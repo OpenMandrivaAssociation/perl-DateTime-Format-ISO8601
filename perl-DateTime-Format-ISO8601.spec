@@ -14,6 +14,7 @@ Source0:	%{upstream_name}-%{upstream_version}.tar.gz
 BuildRequires: perl(DateTime)
 BuildRequires: perl(DateTime::Format::Builder)
 BuildRequires: perl(Class::Factory::Util)
+Buildrequires: perl(Module::Build)
 Requires: perl(Class::Factory::Util)
 BuildArch: noarch
 Buildroot: %{_tmppath}/%{name}-%{version}-%{release}
