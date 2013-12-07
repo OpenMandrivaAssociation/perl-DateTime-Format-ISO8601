@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	8
+Release:	9
 
 Summary:	Parses almost all ISO8601 date and time formats
 License:	GPL
