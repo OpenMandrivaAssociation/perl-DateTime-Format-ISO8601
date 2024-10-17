@@ -8,7 +8,7 @@ Release:	18
 Summary:	Parses almost all ISO8601 date and time formats
 License:	GPL
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/RPM4/
+Url:		https://search.cpan.org/dist/RPM4/
 Source0:	%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl(DateTime)
