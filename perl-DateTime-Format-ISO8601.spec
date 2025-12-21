@@ -11,6 +11,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/dist/RPM4/
 Source0:	%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl(DateTime)
 BuildRequires:	perl(DateTime::Format::Builder)
 BuildRequires:	perl(Class::Factory::Util)
