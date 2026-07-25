@@ -1,15 +1,15 @@
 %define upstream_name	 DateTime-Format-ISO8601
-%define upstream_version 0.07
+%define upstream_version 0.19
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	18
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Parses almost all ISO8601 date and time formats
 License:	GPL
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/RPM4/
-Source0:	%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/houseabsolute/DateTime-Format-ISO8601
+Source0:	https://cpan.metacpan.org/authors/id/T/TI/TIMLEGGE/DateTime-Format-ISO8601-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl(DateTime)
