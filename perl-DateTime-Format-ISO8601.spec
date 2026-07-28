@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%{upstream_version}
-Release:	1
+Release:	2
 
 Summary:	Parses almost all ISO8601 date and time formats
 License:	GPL
@@ -37,7 +37,7 @@ make test
 %makeinstall_std
 
 %files
-%doc Changes README
+%doc Changes README.md
 %{perl_vendorlib}/*
 %{_mandir}/*/*
 
